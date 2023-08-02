@@ -1,0 +1,147 @@
+form {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: xx-large;
+  background-color: whitesmoke;
+
+}
+
+
+.form-control {
+  border-bottom: 1px solid black;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.56);
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width:200px;
+  text-align: center;
+
+
+
+}
+
+
+.form-textarea {
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.56);
+  width:200px;
+  text-align: center;
+
+
+}
+
+
+
+
+
+#tasks {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+
+#tasks>div {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+#tasks div p {
+
+  justify-self: center;
+  display: flex;
+  color: black;
+  cursor: pointer;
+  background-color: rgba(245, 222, 179, 0.659);
+
+}
+
+
+
+
+
+#tasks div p:active {
+
+
+  background-color: rgba(245, 245, 245, 0.664);
+}
+
+
+h3,
+h4 {
+  font-family: 'Lucida Sans';
+  text-align: center;
+
+}
+
+h5 {
+  background-color: rgba(128, 128, 128, 0.434);
+  text-align: center;
+  border-radius: 2px;
+
+}
+
+
+
+
+
+.color {
+  background-color: whitesmoke;
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#msg {
+  color: red;
+  font-size: medium
+}
+
+
+h6 {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.colorful-heading,button {
+  background-image: linear-gradient(to right, red, orange, rgb(33, 33, 26), green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+
+}
+
+
+    .modal-footer {
+      text-align: center; 
+    }
+
+    /* סגנון הכפתור */
+    .modal-footer button {
+      display: inline-block; 
+      margin: 0 10px; 
+      width:70px
+      
+    }
+
